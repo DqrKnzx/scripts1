@@ -6,7 +6,7 @@
 # environment for Fedora 37 / Rawhide.
 
 # Packages
-sudo dnf install -y \
+sudo dnf install -y --skip-unavailable \
     android-tools \
     autoconf213 \
     bison \
